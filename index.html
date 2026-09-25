@@ -151,7 +151,7 @@ svg{display:block}
 .hero__name .dot{color:var(--lime);-webkit-text-stroke:0}
 .badge{position:relative;width:clamp(84px,9vw,132px);aspect-ratio:1;flex:none;display:grid;place-items:center;border-radius:50%;transition:transform .5s var(--ease)}
 .badge svg{position:absolute;inset:0;width:100%;height:100%;animation:rot 16s linear infinite}
-.badge text{font-family:var(--mono);font-size:8.4px;fill:var(--muted)}
+.badge text{font-family:var(--mono);font-size:8.4px;letter-spacing:1.5px;fill:var(--muted)}
 .badge__arrow{width:42%;aspect-ratio:1;border-radius:50%;background:var(--lime);color:#07070a;display:grid;place-items:center;font-size:clamp(16px,1.6vw,22px);font-family:var(--sans);transition:transform .4s var(--ease)}
 .badge:hover .badge__arrow{transform:scale(1.15) rotate(-45deg)}
 @keyframes rot{to{transform:rotate(360deg)}}
@@ -402,7 +402,7 @@ svg{display:block}
       <span class="hero__row"><span><span class="scramble outline" data-text="Raj" aria-hidden="true">Raj</span><span class="dot" aria-hidden="true">.</span></span>
         <span class="badge-wrap" data-in style="--d:.7s"><a href="#about" class="badge magnetic" aria-label="Scroll to About">
           <svg viewBox="0 0 100 100" aria-hidden="true"><defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs>
-            <text textLength="236" lengthAdjust="spacing"><textPath href="#circ" textLength="236" lengthAdjust="spacing">FULL-STACK ✦ .NET ✦ ANGULAR ✦ ML ✦</textPath></text></svg>
+            <text><textPath href="#circ">FULL-STACK ✦ .NET ✦ ANGULAR ✦ ML ✦ </textPath></text></svg>
           <span class="badge__arrow">↓</span>
         </a></span>
       </span>
